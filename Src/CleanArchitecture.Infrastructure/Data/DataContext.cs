@@ -1,6 +1,4 @@
 ﻿using CleanArchitecture.Domain.Entities.Products;
-using CleanArchitecture.Infrastructure.Identity;
-using Microsoft.AspNetCore.Identity.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore;
 using System;
 using System.Collections.Generic;
@@ -10,7 +8,7 @@ using System.Threading.Tasks;
 
 namespace CleanArchitecture.Infrastructure.Data
 {
-    public class DataContext : IdentityDbContext<User>
+    public class DataContext : DbContext
     {
         public DbSet<ProductItem> ProductItem { get; set; }
         public DataContext(DbContextOptions options) : base(options)
