@@ -1,6 +1,11 @@
+using CleanArchitecture.ApplicationCore;
+using CleanArchitecture.Infrastructure;
+
 var builder = WebApplication.CreateBuilder(args);
 
 // Add services to the container.
+builder.Services.ApplyApplicationCore();
+builder.Services.ApplyInfrastructure(builder.Configuration);
 builder.Services.AddControllersWithViews();
 
 var app = builder.Build();
