@@ -1,7 +1,7 @@
 ﻿using CleanArchitecture.Domain.Interfaces;
 using CleanArchitecture.Domain.Interfaces.Repositories;
 using CleanArchitecture.Infrastructure.Data;
-using CleanArchitecture.Infrastructure.Repositories;
+using CleanArchitecture.Infrastructure.Data.Repositories;
 using System;
 using System.Collections.Generic;
 using System.Linq;

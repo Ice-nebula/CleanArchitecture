@@ -7,9 +7,9 @@ using System.Linq.Expressions;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace CleanArchitecture.Infrastructure.Data
+namespace CleanArchitecture.Infrastructure.Data.Repositories
 {
-     public abstract class RepositoryBase<T>: IRepositoryBase<T> where T: class
+    public abstract class RepositoryBase<T> : IRepositoryBase<T> where T : class
     {
         protected DataContext _dataContext { get; set; }
 
