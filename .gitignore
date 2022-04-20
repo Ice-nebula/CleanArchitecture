@@ -193,6 +193,7 @@ _pkginfo.txt
 
 # Others
 ClientBin/
+wwwroot/dist/
 ~$*
 *~
 *.dbmdl
