@@ -1,5 +1,6 @@
 const path = require('path');
 const { CleanWebpackPlugin } = require('clean-webpack-plugin');
+const MiniCssExtractPlugin = require("mini-css-extract-plugin");
 
 module.exports = {
     entry: {
@@ -9,13 +10,13 @@ module.exports = {
         filename: '[name].bundle.js',
         path: path.resolve(__dirname, '..', 'wwwroot', 'dist')
     },
-    devtool: 'source-map',
+devtool: 'source-map',
     mode: 'development',
     module: {
         rules: [
             {
                 test: /\.css$/,
-                use: ['style-loader', 'css-loader'],
+                use: [{ loader: MiniCssExtractPlugin.loader }, 'css-loader'],
             },
             {
                 test: /\.(eot|woff(2)?|ttf|otf|svg)$/i,
@@ -23,7 +24,12 @@ module.exports = {
             },
         ],
     },
+
+    //plugins configuration here
     plugins: [
         new CleanWebpackPlugin(),
+        new MiniCssExtractPlugin({
+ filename: "[name].bundle.css"
+                })
         ]
 };

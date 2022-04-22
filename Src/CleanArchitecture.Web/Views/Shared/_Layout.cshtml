@@ -4,6 +4,7 @@
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>@ViewData["Title"] - CleanArchitecture.Web</title>
+    <link rel="stylesheet" href="~/dist/site.bundle.css" />
 </head>
 <body>
     <header>
@@ -39,6 +40,6 @@
         </div>
     </footer>
     @await RenderSectionAsync("Scripts", required: false)
-    <script src="~/dist/site.bundle.js"></script>
+    <script src="~/dist/site.bundle.js" defer></script>
 </body>
 </html>

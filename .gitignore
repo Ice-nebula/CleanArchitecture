@@ -193,7 +193,7 @@ _pkginfo.txt
 
 # Others
 ClientBin/
-wwwroot/dist/
+Src/CleanArchitecture.Web/wwwroot/dist/
 ~$*
 *~
 *.dbmdl

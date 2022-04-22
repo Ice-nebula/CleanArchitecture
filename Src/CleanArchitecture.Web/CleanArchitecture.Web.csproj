@@ -19,7 +19,7 @@
   </ItemGroup>
 
   <ItemGroup>
-    <Folder Include="WebPack\" />
+    <Folder Include="WebPack\src\css\" />
   </ItemGroup>
 
 </Project>
