@@ -193,9 +193,7 @@ _pkginfo.txt
 
 # Others
 ClientBin/
-Src/CleanArchitecture.Web/wwwroot/dist/
-~$*
-*~
+dist/
 *.dbmdl
 *.dbproj.schemaview
 *.jfm
