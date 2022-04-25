@@ -1,3 +1,4 @@
-import('jquery');
 import('bootstrap/dist/css/bootstrap.min.css');
-import('bootstrap/dist/js/bootstrap.bundle');
+import ('jquery/dist/jquery');
+import ('dayjs');
+import ('../css/site.css');

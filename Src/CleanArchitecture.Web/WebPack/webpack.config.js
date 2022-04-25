@@ -14,19 +14,15 @@ devtool: 'source-map',
     mode: 'development',
     optimization: {
         splitChunks: {
-            chunks: 'async',
-            minSize: 20000,
-            minRemainingSize: 0,
-            minChunks: 1,
-            maxAsyncRequests: 30,
-            maxInitialRequests: 30,
-            enforceSizeThreshold: 50000,
-            cacheGroups: {
-                defaultVendors: {
-                    test: /[\\/]node_modules[\\/]/,
-                    priority: -10,
-                    reuseExistingChunk: true,
-                },
+cacheGroups: {
+                commons: {
+        chunks: 'initial',
+        maxSize: 20000,
+                    minChunks: 2,
+        reuseExistingChunk: true,
+        enforce: true,
+                },//end chunk common
+                
             },
         }, //end split chunks
     }, //end optimization
