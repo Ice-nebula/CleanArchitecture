@@ -20,7 +20,7 @@ cacheGroups: {
         maxSize: 20000,
                     minChunks: 2,
         reuseExistingChunk: true,
-        enforce: true,
+        
                 },//end chunk common
                 
             },

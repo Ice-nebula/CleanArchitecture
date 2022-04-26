@@ -12,6 +12,7 @@ namespace CleanArchitecture.Infrastructure.Data.Repositories
     {
         public ProductRepository(DataContext dataContext) : base(dataContext)
         {
+            
         }
     }
 }
