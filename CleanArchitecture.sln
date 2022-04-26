@@ -5,13 +5,17 @@ VisualStudioVersion = 17.1.32328.378
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Src", "Src", "{A98834C9-D590-4578-8015-2014F479FBC3}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CleanArchitecture.Web", "Src\CleanArchitecture.Web\CleanArchitecture.Web.csproj", "{CCE02BF3-E173-4F39-B79C-50C521E6A0DE}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CleanArchitecture.Web", "Src\CleanArchitecture.Web\CleanArchitecture.Web.csproj", "{CCE02BF3-E173-4F39-B79C-50C521E6A0DE}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CleanArchitecture.Infrastructure", "Src\CleanArchitecture.Infrastructure\CleanArchitecture.Infrastructure.csproj", "{84C457D9-0D53-420B-8437-A1C843572830}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CleanArchitecture.Infrastructure", "Src\CleanArchitecture.Infrastructure\CleanArchitecture.Infrastructure.csproj", "{84C457D9-0D53-420B-8437-A1C843572830}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CleanArchitecture.Domain", "Src\CleanArchitecture.Domain\CleanArchitecture.Domain.csproj", "{053BA192-EC76-4679-8C2C-4962D1E50E91}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CleanArchitecture.Domain", "Src\CleanArchitecture.Domain\CleanArchitecture.Domain.csproj", "{053BA192-EC76-4679-8C2C-4962D1E50E91}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CleanArchitecture.ApplicationCore", "Src\CleanArchitecture.ApplicationCore\CleanArchitecture.ApplicationCore.csproj", "{E6C6DD67-5C82-4A22-A419-D23EB4BFF875}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CleanArchitecture.ApplicationCore", "Src\CleanArchitecture.ApplicationCore\CleanArchitecture.ApplicationCore.csproj", "{E6C6DD67-5C82-4A22-A419-D23EB4BFF875}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Tests", "Tests", "{98C52836-C9B2-4D30-986E-2E4FC8F75ABF}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CleanArchitecture.IntegrationTests", "Tests\CleanArchitecture.IntegrationTests\CleanArchitecture.IntegrationTests.csproj", "{28CB6581-907D-4BF8-9C29-DDAF0A82C99F}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -35,6 +39,10 @@ Global
 		{E6C6DD67-5C82-4A22-A419-D23EB4BFF875}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{E6C6DD67-5C82-4A22-A419-D23EB4BFF875}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{E6C6DD67-5C82-4A22-A419-D23EB4BFF875}.Release|Any CPU.Build.0 = Release|Any CPU
+		{28CB6581-907D-4BF8-9C29-DDAF0A82C99F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{28CB6581-907D-4BF8-9C29-DDAF0A82C99F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{28CB6581-907D-4BF8-9C29-DDAF0A82C99F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{28CB6581-907D-4BF8-9C29-DDAF0A82C99F}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -44,6 +52,7 @@ Global
 		{84C457D9-0D53-420B-8437-A1C843572830} = {A98834C9-D590-4578-8015-2014F479FBC3}
 		{053BA192-EC76-4679-8C2C-4962D1E50E91} = {A98834C9-D590-4578-8015-2014F479FBC3}
 		{E6C6DD67-5C82-4A22-A419-D23EB4BFF875} = {A98834C9-D590-4578-8015-2014F479FBC3}
+		{28CB6581-907D-4BF8-9C29-DDAF0A82C99F} = {98C52836-C9B2-4D30-986E-2E4FC8F75ABF}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {7B195965-F103-41D7-992E-DC928B4B3B4B}
