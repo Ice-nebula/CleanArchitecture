@@ -1,6 +1,6 @@
 {
   "$schema": "http://json.schemastore.org/template",
-  "author": "IceBytes",
+  "author": "Ice-nebula",
   "defaultName" : "AspNetCoreCleanArchitecture",
   "sourceName": "CleanArchitecture",
       "preferNameDirectory": true,
