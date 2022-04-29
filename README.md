@@ -4,7 +4,7 @@ Clean architecture is a template for asp.net core mvc for easy application devel
 
 # technologies
 1. [asp.net core 6](https://docs.microsoft.com/en-us/aspnet/core/introduction-to-aspnet-core?view=aspnetcore-6.0)
-2. [entity framework for data access](https://docs.microsoft.com/en-us/ef/core/)
+2. [entity framework core for data access](https://docs.microsoft.com/en-us/ef/core/)
 3. [postgres provider for entity framework](https://github.com/npgsql/efcore.pg)
 4. [automapper](https://github.com/AutoMapper/AutoMapper)
 5. [webpack](https://webpack.js.org/)
